@@ -31,12 +31,6 @@ void encrypt()
     strcat(first_str, third_str);
     strcat(first_str, outfile);
 
-    if(strlen(first_str) > 220)
-    {
-        std::cout << "String input is too large!\nNo soup for you!\n";
-        exit(1);
-    }
-
     system(first_str);
     std::cout << std::endl;
 }
